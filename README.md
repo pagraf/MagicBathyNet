@@ -11,3 +11,21 @@ This work is part of MagicBathy project funded by the European Union’s HORIZON
 If you use this code, please cite our paper given below:
 
 as well as the dataset:
+
+
+
+# Usage
+
+## Downloading the dataset
+
+The dataset can be found here: https://zenodo.org/record/XXXXXX
+
+## Clone the repo
+
+`git clone ...`
+
+## Install the repo
+
+`cd ./MagicBathyNet_Benchmark`
+
+`pip install setup -e .`
