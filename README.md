@@ -39,7 +39,7 @@ as well as the dataset:
 For downloading the dataset and a detailed explanation, please visit the MagicBathy Project website at [https://www.magicbathy.eu/dataset.html](https://www.magicbathy.eu/dataset.html)
 
 ## Setup
-The code in this repository is tested with `Ubuntu 22.04 LTS` and `Python 3.8.10` [GCC 9.4.0].
+The code in this repository is tested with `Ubuntu 22.04 LTS` and `Python 3.8.10` `GCC 9.4.0`.
 
 ## Clone the repo
 
