@@ -18,7 +18,7 @@ as well as the dataset:
 
 ## Downloading the dataset
 
-The dataset can be found here: https://zenodo.org/record/XXXXXX
+For downloading the dataset and a detailed explanation, please visit the MagicBathy Project website at [https://www.magicbathy.eu/dataset.html](https://www.magicbathy.eu/dataset.html)
 
 ## Clone the repo
 
