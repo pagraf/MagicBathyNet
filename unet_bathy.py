@@ -1,13 +1,14 @@
 '''
 Initial Pytorch Implementation: Panagiotis Agrafiotis (https://github.com/pagraf/MagicBathyNet_Benchmark)
-
 Email: agrafiotis.panagiotis@gmail.com
-
-Description: bathy-u-net.py is a simplified U-Net model modified for estimating water depth from RGB images. This model retains an encoder-decoder structure with reduced layers and channels, using skip connections to maintain spatial information during depth prediction. It outputs continuous values, suitable for depth estimation.
+Description: bathy-u-net.py is a simplified U-Net model modified for estimating water depth from RGB images. 
+This model retains an encoder-decoder structure with reduced layers and channels, using skip connections to 
+maintain spatial information during depth prediction. It outputs continuous values, suitable for depth estimation.
 
 If you use this code please cite: ...
 
-This source code is licensed under the license found in the LICENSE file in the root directory of this source tree.
+This source code is licensed under the license found in the LICENSE file in the root directory of this source 
+tree.
 '''
 
 
