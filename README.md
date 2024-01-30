@@ -41,29 +41,46 @@ For downloading the dataset and a detailed explanation of it, please visit the M
 ## Dataset structure
 The folder structure should be as follows:
 ```
-┗ 📂 hyspecnet-11k/
-  ┣ 📂 patches/
-  ┃ ┣ 📂 tile_001/
-  ┃ ┃ ┣ 📂 tile_001-patch_01/
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-DATA.npy
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_PIXELMASK.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_QUALITY_CIRRUS.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_QUALITY_CLASSES.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_QUALITY_CLOUD.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_QUALITY_CLOUDSHADOW.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_QUALITY_HAZE.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_QUALITY_SNOW.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_QUALITY_TESTFLAGS.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_SWIR.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-QL_VNIR.TIF
-  ┃ ┃ ┃ ┣ 📜 tile_001-patch_01-SPECTRAL_IMAGE.TIF
-  ┃ ┃ ┃ ┗ 📜 tile_001-patch_01-THUMBNAIL.jpg
-  ┃ ┃ ┣ 📂 tile_001-patch_02/
-  ┃ ┃ ┃ ┗ 📜 ...
-  ┃ ┃ ┗ 📂 ...
-  ┃ ┣ 📂 tile_002/
-  ┃ ┃ ┗ 📂 ...
-  ┃ ┗ 📂 ...
+┗ 📂 magicbathynet/
+  ┣ 📂 agia_napa/
+  ┃ ┣ 📂 img/
+  ┃ ┃ ┣ 📂 aerial/
+  ┃ ┃ ┃ ┣ 📜 img_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┃ ┣ 📂 s2/
+  ┃ ┃ ┃ ┣ 📜 img_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┃ ┣ 📂 spot6/
+  ┃ ┃ ┃ ┣ 📜 img_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┣ 📂 depth/
+  ┃ ┃ ┣ 📂 aerial/
+  ┃ ┃ ┃ ┣ 📜 depth_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┃ ┣ 📂 s2/
+  ┃ ┃ ┃ ┣ 📜 depth_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┃ ┣ 📂 spot6/
+  ┃ ┃ ┃ ┣ 📜 depth_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┣ 📂 gts/
+  ┃ ┃ ┣ 📂 aerial/
+  ┃ ┃ ┃ ┣ 📜 gts_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┃ ┣ 📂 s2/
+  ┃ ┃ ┃ ┣ 📜 gts_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┃ ┃ ┣ 📂 spot6/
+  ┃ ┃ ┃ ┣ 📜 gts_339.tif
+  ┃ ┃ ┃ ┣ 📜 ...
+  ┣ 📜 aerial.txt
+  ┣ 📜 s2.txt
+  ┣ 📜 spot6.txt
+  ┣ 📂 puck_lagoon/
+  ┃ ┣ 📂 img/
+  ┃ ┃ ┣ 📂 ...
+  ┃ ┣ 📂 depth/
+  ┃ ┃ ┣ 📂 ...
   ┗ 📂 splits/
   ┣ 📂 easy/
   ┃ ┣ 📜 test.csv
@@ -74,6 +91,9 @@ The folder structure should be as follows:
   ┃ ┣ 📜 train.csv
   ┃ ┗ 📜 val.csv
   ┗ 📂 ...
+  ┣ 📜 aerial.txt
+  ┣ 📜 s2.txt
+  ┣ 📜 spot6.txt
 ```
 
 ## Setup
