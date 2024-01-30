@@ -81,16 +81,6 @@ The folder structure should be as follows:
   ┃ ┃ ┣ 📂 ...
   ┃ ┣ 📂 depth/
   ┃ ┃ ┣ 📂 ...
-  ┗ 📂 splits/
-  ┣ 📂 easy/
-  ┃ ┣ 📜 test.csv
-  ┃ ┣ 📜 train.csv
-  ┃ ┗ 📜 val.csv
-  ┣ 📂 hard/
-  ┃ ┣ 📜 test.csv
-  ┃ ┣ 📜 train.csv
-  ┃ ┗ 📜 val.csv
-  ┗ 📂 ...
   ┣ 📜 aerial.txt
   ┣ 📜 s2.txt
   ┣ 📜 spot6.txt
