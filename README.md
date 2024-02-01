@@ -45,7 +45,7 @@ The folder structure should be as follows:
   ┣ 📂 agia_napa/
   ┃ ┣ 📂 img/
   ┃ ┃ ┣ 📂 aerial/
-  ┃ ┃ ┃ ┣ 📜 img_339.tif
+  ┃ ┃ ┃ ┣ 📜 img_aerial_an_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┃ ┣ 📂 s2/
   ┃ ┃ ┃ ┣ 📜 img_339.tif
