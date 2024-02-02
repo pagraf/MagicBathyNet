@@ -120,7 +120,7 @@ pip install -r requirements.txt
 ```
 
 ## Train and Test
-To train and test the bathymetry models use magicbathy_bathymetry.ipynb
+To train and test the bathymetry models use ### magicbathy_bathymetry.ipynb
 
 To train and test the pixel-based classification models use magicbathy_pixelclassification.ipynb
 
