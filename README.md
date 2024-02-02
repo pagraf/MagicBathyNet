@@ -121,8 +121,9 @@ pip install -r requirements.txt
 
 ## Train and Test
 To train and test the bathymetry models use magicbathy_bathymetry.ipynb
+
 To train and test the pixel-based classification models use magicbathy_pixelclassification.ipynb
 
 ### Pretrained models
-Pretrained models on MagicBAthyNet dataset can be found under models/ in dataset folder.
+Pretrained models on MagicBathyNet dataset can be found under models/ in dataset folder.
 
