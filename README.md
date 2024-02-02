@@ -119,6 +119,5 @@ All dependencies are listed in the [`requirements.txt`](requirements.txt) and ca
 pip install -r requirements.txt
 ```
 ### Pretrained models
-To download the pretrained models on MagicBAthyNet dataset press here. Then, you should create and put these items in the semanticsegmentation/trained_models/ folder.
-
+Pretrained models on MagicBAthyNet dataset can be found under models/ in dataset folder.
 
