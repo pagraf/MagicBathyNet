@@ -5,7 +5,7 @@
 
 MagicBathyNet is a benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations. Dataset also facilitates unsupervised learning for model pre-training in shallow coastal areas.
 
-This work is part of MagicBathy project funded by the European Union’s HORIZON Europe research and innovation programme under the Marie Skłodowska-Curie GA 101063294. Work has been carried out at the [Remote Sensing Image Analysis group](https://rsim.berlin/). For more information about the project visit [https://www.magicbathy.eu/](https://www.magicbathy.eu/).
+This work is part of **MagicBathy project funded by the European Union’s HORIZON Europe research and innovation programme under the Marie Skłodowska-Curie GA 101063294**. Work has been carried out at the [Remote Sensing Image Analysis group](https://rsim.berlin/). For more information about the project visit [https://www.magicbathy.eu/](https://www.magicbathy.eu/).
 
 
 ## Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
@@ -120,10 +120,10 @@ pip install -r requirements.txt
 ```
 
 ## Train and Test
-To train and test the bathymetry models use ### magicbathy_bathymetry.ipynb
+To train and test the **bathymetry** models use **magicbathy_bathymetry.ipynb**
 
-To train and test the pixel-based classification models use magicbathy_pixelclassification.ipynb
+To train and test the **pixel-based classification** models use **magicbathy_pixelclassification.ipynb**
 
 ### Pretrained models
-Pretrained models on MagicBathyNet dataset can be found under models/ in dataset folder.
+Pretrained models on MagicBathyNet dataset can be found under models/ in the downloanded dataset folder.
 
