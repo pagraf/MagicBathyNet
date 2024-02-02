@@ -86,7 +86,7 @@ The folder structure should be as follows:
 The mapping between RGB color values and classes is:
 ```
 For the Agia Napa area:
-0 : (157, 157, 157), #poseidonia
+0: (157, 157, 157), #poseidonia
 1 : (255, 255, 255), #rock
 2 : (159, 159, 159), #macroalgae
 3 : (63, 63, 63),    #sand
