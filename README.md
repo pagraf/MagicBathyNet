@@ -83,6 +83,22 @@ The folder structure should be as follows:
   ┣ 📜 s2_pl.txt
   ┣ 📜 spot6_pl.txt
 ```
+The mapping between RGB color values and classes is:
+```
+For the Agia Napa area:
+0 : (157, 157, 157), #poseidonia
+1 : (255, 255, 255), #rock
+2 : (159, 159, 159), #macroalgae
+3 : (63, 63, 63),    #sand
+4 : (0, 0, 0)}       #Undefined (black)
+
+For the Puck Lagoon area:
+0 : (157, 157, 157), #sand
+1 : (255, 255, 255), #poseidonia
+2 : (0, 0, 0)}       #Undefined (black)
+
+```
+
 
 ## Setup
 The code in this repository is tested with `Ubuntu 22.04 LTS` and `Python 3.8.10` `GCC 9.4.0`.
