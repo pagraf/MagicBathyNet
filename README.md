@@ -30,7 +30,7 @@ If you use the code in this repository or the dataset please cite:
   doi={XXX}}
 ```
 
-# Usage
+# Getting started
 
 ## Downloading the dataset
 
@@ -118,6 +118,11 @@ All dependencies are listed in the [`requirements.txt`](requirements.txt) and ca
 ```
 pip install -r requirements.txt
 ```
+
+## Train and Test
+To train and test the bathymetry models use magicbathy_bathymetry.ipynb
+To train and test the pixel-based classification models use magicbathy_pixelclassification.ipynb
+
 ### Pretrained models
 Pretrained models on MagicBAthyNet dataset can be found under models/ in dataset folder.
 
