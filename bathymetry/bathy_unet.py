@@ -9,8 +9,21 @@ even with limited annotated data.
 
 If you use this code please cite: ...
 
-This source code is licensed under the license found in the LICENSE.md file in the root directory of this source 
-tree.
+bathy_unet.py © 2024 by Panagiotis Agrafiotis is licensed under Attribution-NonCommercial-ShareAlike 4.0 International 
+
+This license requires that reusers give credit to the creator. It allows reusers 
+to distribute, remix, adapt, and build upon the material in any medium or format,
+for noncommercial purposes only. If others modify or adapt the material, they 
+must license the modified material under identical terms.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 '''
 
 
