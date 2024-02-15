@@ -8,8 +8,6 @@ Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https:/
 Puplication: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https://doi.org/10.5281/zenodo.10470959) <br />
 
 MagicBathyNet is a benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations. Dataset also facilitates unsupervised learning for model pre-training in shallow coastal areas.
-
-This work is part of **MagicBathy project funded by the European Union’s HORIZON Europe research and innovation programme under the Marie Skłodowska-Curie GA 101063294**. Work has been carried out at the [Remote Sensing Image Analysis group](https://rsim.berlin/). For more information about the project visit [https://www.magicbathy.eu/](https://www.magicbathy.eu/).
 <br />
 <br />
 
@@ -139,13 +137,14 @@ Example patch of the Agia Napa area (left), pixel classification results obtaine
 ![aerial_410_unet256](https://github.com/pagraf/MagicBathyNet/assets/35768562/80c3f9ed-85d9-4b65-a505-76c5df0e6ba7)
 ![aerial_depth_agia_napa256](https://github.com/pagraf/MagicBathyNet/assets/35768562/be576c35-8881-440d-a8c2-c2857849cee7)
 
-
-
-
 ### Pretrained models
 Pretrained models on MagicBathyNet dataset can be found under models/ in the downloanded dataset folder.
 
 ## Authors
 Panagiotis Agrafiotis [https://www.user.tu-berlin.de/pagraf/](https://www.user.tu-berlin.de/pagraf/)
+
 ## Feedback
 Feel free to give feedback, by sending an email to: agrafiotis@tu-berlin.de
+
+# Fundinng
+This work is part of **MagicBathy project funded by the European Union’s HORIZON Europe research and innovation programme under the Marie Skłodowska-Curie GA 101063294**. Work has been carried out at the [Remote Sensing Image Analysis group](https://rsim.berlin/). For more information about the project visit [https://www.magicbathy.eu/](https://www.magicbathy.eu/).
