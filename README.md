@@ -16,6 +16,7 @@ MagicBathyNet is a benchmark dataset made up of image patches of Sentinel-2, SPO
 
 This repository contains the code of the paper [MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters currently submitted and under review at 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://www.magicbathy.eu/). 
 
+## Citation
 
 If you find this repository useful, please consider giving a star ⭐.
 If you use the code in this repository or the dataset please cite:
