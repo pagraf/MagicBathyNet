@@ -3,9 +3,9 @@
 
 # MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters
 
-Dataset [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https://doi.org/10.5281/zenodo.10470959)<br />
-Code [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https://doi.org/10.5281/zenodo.10470959)<br />
-Puplication [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https://doi.org/10.5281/zenodo.10470959)<br />
+###Dataset### [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https://doi.org/10.5281/zenodo.10470959)<br />
+###Code### [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https://doi.org/10.5281/zenodo.10470959)<br />
+###Puplication### [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](https://doi.org/10.5281/zenodo.10470959)<br />
 
 MagicBathyNet is a benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations. Dataset also facilitates unsupervised learning for model pre-training in shallow coastal areas.
 
