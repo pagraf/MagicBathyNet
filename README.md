@@ -14,7 +14,7 @@ This work is part of **MagicBathy project funded by the European Union’s HORIZ
 <br />
 <br />
 
-## Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
+# Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
 
 This repository contains the code of the paper "MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters" currently submitted and under review at 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024). 
 
