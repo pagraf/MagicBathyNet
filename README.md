@@ -16,7 +16,7 @@ This work is part of **MagicBathy project funded by the European Union’s HORIZ
 
 # Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
 
-This repository contains the code of the paper "MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters" currently submitted and under review at 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024). 
+This repository contains the code of the paper "[MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters" currently submitted and under review at 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://www.magicbathy.eu/). 
 
 
 If you find this repository useful, please consider giving a star ⭐.
@@ -133,7 +133,7 @@ To train and test the **bathymetry** models use **MagicBathy_Benchmarking_Bathym
 To train and test the **pixel-based classification** models use **MagicBathy_Benchmarking_semsegm.ipynb**.
 
 ## Example testing results
-Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our paper here
+Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our paper "[MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters" currently submitted and under review at 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://www.magicbathy.eu/). 
 
 ![img_410_aerial](https://github.com/pagraf/MagicBathyNet/assets/35768562/132b4166-b012-476b-9653-b511ede2c6f3)
 ![aerial_410_unet256](https://github.com/pagraf/MagicBathyNet/assets/35768562/80c3f9ed-85d9-4b65-a505-76c5df0e6ba7)
