@@ -128,6 +128,9 @@ To train and test the **bathymetry** models use **MagicBathy_Benchmarking_Bathym
 
 To train and test the **pixel-based classification** models use **MagicBathy_Benchmarking_semsegm.ipynb**.
 
+![image](https://github.com/pagraf/MagicBathyNet/assets/35768562/b06eebf3-d7ef-4573-8350-9744c93ae6fd)
+
+
 ### Pretrained models
 Pretrained models on MagicBathyNet dataset can be found under models/ in the downloanded dataset folder.
 
