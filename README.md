@@ -131,6 +131,7 @@ To train and test the **pixel-based classification** models use **MagicBathy_Ben
 ### Pretrained models
 Pretrained models on MagicBathyNet dataset can be found under models/ in the downloanded dataset folder.
 
-
+## Authors
+Panagiotis Agrafiotis [https://www.user.tu-berlin.de/pagraf/](https://www.user.tu-berlin.de/pagraf/)
 ## Feedback
 Feel free to give feedback, by sending an email to: agrafiotis@tu-berlin.de
