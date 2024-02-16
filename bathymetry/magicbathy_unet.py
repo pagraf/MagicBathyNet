@@ -63,6 +63,7 @@ class UNet_bathy(nn.Module):
         output = self.decoder[3](x)
         
         return output
+        #return output.squeeze()  # Squeeze to remove channel dimension for regression
 
 class DoubleConv(nn.Module):
     def __init__(self, in_channels, out_channels):
