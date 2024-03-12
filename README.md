@@ -43,6 +43,9 @@ If you use the code in this repository or the dataset please cite:
 
 For downloading the dataset and a detailed explanation of it, please visit the MagicBathy Project website at [https://www.magicbathy.eu/dataset.html](https://www.magicbathy.eu/dataset.html)
 
+![Screenshot from 2024-03-12 10-34-25](https://github.com/pagraf/MagicBathyNet/assets/35768562/767bb24e-cdb0-4a69-8937-d7b86cc771e2)
+
+
 ## Dataset structure
 The folder structure should be as follows:
 ```
