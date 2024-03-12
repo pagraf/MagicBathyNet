@@ -10,7 +10,7 @@ Puplication: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10470959.svg)](
 MagicBathyNet is a benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations. Dataset also facilitates unsupervised learning for model pre-training in shallow coastal areas.
 <br />
 <br />
-
+![Screenshot from 2024-03-12 10-34-25](https://github.com/pagraf/MagicBathyNet/assets/35768562/767bb24e-cdb0-4a69-8937-d7b86cc771e2)
 
 # Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
 
@@ -42,8 +42,6 @@ If you use the code in this repository or the dataset please cite:
 ## Downloading the dataset
 
 For downloading the dataset and a detailed explanation of it, please visit the MagicBathy Project website at [https://www.magicbathy.eu/dataset.html](https://www.magicbathy.eu/dataset.html)
-
-![Screenshot from 2024-03-12 10-34-25](https://github.com/pagraf/MagicBathyNet/assets/35768562/767bb24e-cdb0-4a69-8937-d7b86cc771e2)
 
 
 ## Dataset structure
