@@ -137,7 +137,7 @@ Pretrained models on MagicBathyNet dataset can be found under models/ in the dow
 Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our paper [MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters currently submitted and under review at 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://www.magicbathy.eu/). 
 
 ![img_410_aerial](https://github.com/pagraf/MagicBathyNet/assets/35768562/132b4166-b012-476b-9653-b511ede2c6f3)
-![aerial_410_unet256](https://github.com/pagraf/MagicBathyNet/assets/35768562/80c3f9ed-85d9-4b65-a505-76c5df0e6ba7)
+![aerial_410_segformer](https://github.com/pagraf/MagicBathyNet/assets/35768562/5fa07a08-0387-43ef-9c8c-de6623b6624b)
 ![aerial_depth_agia_napa256](https://github.com/pagraf/MagicBathyNet/assets/35768562/be576c35-8881-440d-a8c2-c2857849cee7)
 
 ## Authors
