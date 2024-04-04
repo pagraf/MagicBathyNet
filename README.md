@@ -132,7 +132,7 @@ To train and test the **pixel-based classification** models use **MagicBathy_Ben
 Pretrained models on MagicBathyNet dataset can be found under models/ in the downloanded dataset folder.
 
 ## Example testing results
-Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our paper [MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters currently submitted and under review at 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://www.magicbathy.eu/). 
+Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our [paper](https://www.magicbathy.eu/). 
 
 
 ![img_410_aerial](https://github.com/pagraf/MagicBathyNet/assets/35768562/132b4166-b012-476b-9653-b511ede2c6f3)
