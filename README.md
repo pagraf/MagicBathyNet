@@ -4,9 +4,7 @@
 # MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters
 
 MagicBathyNet is a benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations. Dataset also facilitates unsupervised learning for model pre-training in shallow coastal areas.
-![Screenshot from 2024-03-20 16-57-25](https://github.com/pagraf/MagicBathyNet/assets/35768562/1408e414-6c6f-41ba-92e4-4a179eb61d9b)
 <br />
-
 <br />
 
 # Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
