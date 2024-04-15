@@ -34,7 +34,7 @@ def multicrop(img_path, img_path2, width, height, pixsize):
                 data2 = src2.read(boundless=False, window=window, fill_value=fill_value)
 
                 # Check if the mean pixel value of the main image is not zero
-                if np.mean(data[0]) != 0:
+                if np.mean(data[0]) != 0:     #replace 0 with 50 for Agia Napa UAV spit
                     # Adjust the affine transformation to match the new window
                     transform = kwargs['transform']
                     new_affine = rasterio.Affine(transform[0], transform[1], transform[2] + (col_off * pixsize),
