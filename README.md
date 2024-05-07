@@ -20,18 +20,17 @@ If you use the code in this repository or the dataset please cite:
 >Agrafiotis, P., Zanowski, L., Skarlatos, D. & Demir, B. (2024) MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters, IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024
 
 ```
-@INPROCEEDINGS{XXXXXX,
-  author={XXX and Demir, Begüm},
-  booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
-  title={MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters}, 
+@inproceedings{agrafiotismagic,
+  title={MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters},
+  author={Agrafiotis, P. and Zanowski, L. and Skarlatos, D. and Demir, B.},
+  booktitle={IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium},
+  pages={},
   year={2024},
-  volume={},
-  number={},
-  pages={XXX},
-  doi={XXX}}
+  organization={IEEE}
+}
 ```
 <br />
-
+Agrafiotis, P., Zanowski, L., Skarlatos, D. & Demir, B. (2024) MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters, IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024
 
 # Getting started
 
