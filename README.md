@@ -46,45 +46,50 @@ The folder structure should be as follows:
   ┣ 📂 agia_napa/
   ┃ ┣ 📂 img/
   ┃ ┃ ┣ 📂 aerial/
-  ┃ ┃ ┃ ┣ 📜 img_aerial_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 img_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┃ ┣ 📂 s2/
-  ┃ ┃ ┃ ┣ 📜 img_s2_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 img_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┃ ┣ 📂 spot6/
-  ┃ ┃ ┃ ┣ 📜 img_spot6_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 img_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┣ 📂 depth/
   ┃ ┃ ┣ 📂 aerial/
-  ┃ ┃ ┃ ┣ 📜 depth_aerial_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 depth_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┃ ┣ 📂 s2/
-  ┃ ┃ ┃ ┣ 📜 depth_s2_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 depth_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┃ ┣ 📂 spot6/
-  ┃ ┃ ┃ ┣ 📜 depth_spot6_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 depth_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┣ 📂 gts/
   ┃ ┃ ┣ 📂 aerial/
-  ┃ ┃ ┃ ┣ 📜 gts_aerial_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 gts_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┃ ┣ 📂 s2/
-  ┃ ┃ ┃ ┣ 📜 gts_s2_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 gts_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
   ┃ ┃ ┣ 📂 spot6/
-  ┃ ┃ ┃ ┣ 📜 gts_spot6_an_339.tif
+  ┃ ┃ ┃ ┣ 📜 gts_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
-  ┣ 📜 aerial_an.txt
-  ┣ 📜 s2_an.txt
-  ┣ 📜 spot6_an.txt
+  ┃ ┣ 📂 pretrained_models/
+  ┃ ┣ 📜 aerial_split.txt
+  ┃ ┣ 📜 s2_split.txt
+  ┃ ┣ 📜 spot6_split.txt
+  ┃
   ┣ 📂 puck_lagoon/
   ┃ ┣ 📂 img/
   ┃ ┃ ┣ 📂 ...
   ┃ ┣ 📂 depth/
   ┃ ┃ ┣ 📂 ...
-  ┣ 📜 aerial_pl.txt
-  ┣ 📜 s2_pl.txt
-  ┣ 📜 spot6_pl.txt
+  ┃ ┣ 📂 gts/
+  ┃ ┃ ┣ 📂 ...
+  ┃ ┣ 📂 pretrained_models/
+  ┃ ┣ 📜 aerial_split.txt
+  ┃ ┣ 📜 s2_split.txt
+  ┃ ┣ 📜 spot6_split.txt
 ```
 The mapping between RGB color values and classes is:
 
