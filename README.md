@@ -91,7 +91,7 @@ The mapping between RGB color values and classes is:
 
 ```
 For the Agia Napa area:
-0 : (0, 128, 0),   #posidonia
+0 : (0, 128, 0),   #seagrass
 1 : (0, 0, 255),   #rock
 2 : (255, 0, 0),   #macroalgae
 3 : (255, 128, 0), #sand
@@ -99,7 +99,7 @@ For the Agia Napa area:
 
 For the Puck Lagoon area:
 0 : (255, 128, 0), #sand
-1 : (0, 128, 0) ,  #other rooted plants
+1 : (0, 128, 0) ,  #eelgrass/pondweed
 2 : (0, 0, 0)}     #Undefined (black)
 ```
 
