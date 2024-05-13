@@ -136,9 +136,9 @@ To train and test the **pixel-based classification** models use **MagicBathy_Ben
 We provide code and model weights for the following deep learning models that have been pre-trained on BigEarthNet-S2 with the original Level-3 class nomenclature of CLC 2018 (which includes 43 classes) for scene classification:
 
 
-| Model Names   | Pre-Trained TensorFlow Models                                                                                                                               | 
-| ------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| K-Branch CNN  | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
+| Model Names | Modality | Area | Pre-Trained TensorFlow Models                                                                                                                | 
+| ----------- |----------| ---- |----------------------------------------------------------------------------------------------------------------------------------------------|
+| U-Net | Aerial | Agia Napa | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
 | VGG16         | [VGG16.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
 | VGG19         | [VGG19.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
 | ResNet50      | [ResNet50.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
