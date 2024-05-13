@@ -132,8 +132,20 @@ To train and test the **bathymetry** models use **MagicBathy_Benchmarking_Bathym
 
 To train and test the **pixel-based classification** models use **MagicBathy_Benchmarking_semsegm.ipynb**.
 
-### Pretrained models
-Pretrained models on MagicBathyNet dataset can be found under models/ in the downloanded dataset folder.
+## Pre-trained Deep Learning Models
+We provide code and model weights for the following deep learning models that have been pre-trained on BigEarthNet-S2 with the original Level-3 class nomenclature of CLC 2018 (which includes 43 classes) for scene classification:
+
+
+| Model Names   | Pre-Trained TensorFlow Models                                                                                                                               | 
+| ------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| K-Branch CNN  | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
+| VGG16         | [VGG16.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
+| VGG19         | [VGG19.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
+| ResNet50      | [ResNet50.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
+| ResNet101     | [ResNet101.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
+| ResNet152     | [ResNet152.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
+
+The results provided in the [BigEarthNet-S2 paper](http://bigearth.net/static/documents/BigEarthNet_IGARSS_2019.pdf) are different from those obtained by the models given above due to the selection of different train, validation and test sets.
 
 ## Example testing results
 Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our [paper](https://www.magicbathy.eu/). 
