@@ -152,14 +152,14 @@ We provide code and model weights for the following deep learning models that ha
 | SegFormer | Sentinel-2 | Puck Lagoon    | [segformer_s2_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
 
 ### Learning-based Bathymetry
-| Model Names | Modality | Area | Pre-Trained PyTorch Models                                                                                                                | 
+| Model Name | Modality | Area | Pre-Trained PyTorch Models                                                                                                                | 
 | ----------- |----------| ---- |----------------------------------------------------------------------------------------------------------------------------------------------|
-| Image2Bathy | Aerial | Agia Napa | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
-| Image2Bathy | Aerial | Puck Lagoona         | [VGG16.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
-| Image2Bathy | SPOT-6 | Agia Napa        | [VGG19.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
-| Image2Bathy | SPOT-6 | Puck Lagoon      | [ResNet50.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
-| Image2Bathy | Sentinel-2 | Agia Napa    | [ResNet101.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
-| Image2Bathy | Sentinel-2 | Puck Lagoon    | [ResNet152.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
+| Image2Bathy | Aerial | Agia Napa | [Image2Bathy_aerial_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
+| Image2Bathy | Aerial | Puck Lagoona         | [Image2Bathy_aerial_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
+| Image2Bathy | SPOT-6 | Agia Napa        | [Image2Bathy_spot6_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
+| Image2Bathy | SPOT-6 | Puck Lagoon      | [Image2Bathy_spot6_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
+| Image2Bathy | Sentinel-2 | Agia Napa    | [Image2Bathy_s2_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
+| Image2Bathy | Sentinel-2 | Puck Lagoon    | [Image2Bathy_s2_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
 
 
 
