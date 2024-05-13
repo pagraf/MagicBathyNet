@@ -136,23 +136,23 @@ To train and test the **pixel-based classification** models use **MagicBathy_Ben
 We provide code and model weights for the following deep learning models that have been pre-trained on BigEarthNet-S2 with the original Level-3 class nomenclature of CLC 2018 (which includes 43 classes) for scene classification:
 
 ### Pixel-based classification
-| Model Names | Modality | Area | Pre-Trained TensorFlow Models                                                                                                                | 
+| Model Names | Modality | Area | Pre-Trained PyTorch Models                                                                                                                | 
 | ----------- |----------| ---- |----------------------------------------------------------------------------------------------------------------------------------------------|
-| U-Net | Aerial | Agia Napa | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
-| SegFormer | Aerial | Agia Napa         | [VGG16.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
-| U-Net | SPOT-6 | Agia Napa        | [VGG19.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
-| SegFormer | SPOT-6 | Agia Napa      | [ResNet50.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
-| U-Net | Sentinel-2 | Agia Napa     | [ResNet101.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
-| SegFormer | Sentinel-2 | Agia Napa    | [ResNet152.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
-| U-Net | Aerial | Puck Lagoon | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
-| SegFormer | Aerial | Puck Lagoona         | [VGG16.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
-| U-Net | SPOT-6 | Puck Lagoon        | [VGG19.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
-| SegFormer | SPOT-6 | Puck Lagoon      | [ResNet50.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
-| U-Net | Sentinel-2 | Puck Lagoon    | [ResNet101.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
-| SegFormer | Sentinel-2 | Puck Lagoon    | [ResNet152.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
+| U-Net | Aerial | Agia Napa | [unet_aerial_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
+| SegFormer | Aerial | Agia Napa         | [segformer_aerial_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
+| U-Net | SPOT-6 | Agia Napa        | [unet_spot6_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
+| SegFormer | SPOT-6 | Agia Napa      | [segformer_spot6_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
+| U-Net | Sentinel-2 | Agia Napa     | [unet_s2_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
+| SegFormer | Sentinel-2 | Agia Napa    | [segformer_s2_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
+| U-Net | Aerial | Puck Lagoon | [unet_aerial_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
+| SegFormer | Aerial | Puck Lagoona         | [segformer_aerial_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
+| U-Net | SPOT-6 | Puck Lagoon        | [unet_spot6_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
+| SegFormer | SPOT-6 | Puck Lagoon      | [segformer_spot6_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
+| U-Net | Sentinel-2 | Puck Lagoon    | [unet_s2_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
+| SegFormer | Sentinel-2 | Puck Lagoon    | [segformer_s2_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
 
 ### Learning-based Bathymetry
-| Model Names | Modality | Area | Pre-Trained TensorFlow Models                                                                                                                | 
+| Model Names | Modality | Area | Pre-Trained PyTorch Models                                                                                                                | 
 | ----------- |----------| ---- |----------------------------------------------------------------------------------------------------------------------------------------------|
 | Image2Bathy | Aerial | Agia Napa | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
 | Image2Bathy | Aerial | Puck Lagoona         | [VGG16.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
