@@ -152,6 +152,8 @@ We provide code and model weights for the following deep learning models that ha
 | SegFormer | Sentinel-2 | Puck Lagoon    | [ResNet152.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
 
 ### Learning-based Bathymetry
+| Model Names | Modality | Area | Pre-Trained TensorFlow Models                                                                                                                | 
+| ----------- |----------| ---- |----------------------------------------------------------------------------------------------------------------------------------------------|
 | Image2Bathy | Aerial | Agia Napa | [K-BranchCNN.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
 | Image2Bathy | Aerial | Puck Lagoona         | [VGG16.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
 | Image2Bathy | SPOT-6 | Agia Napa        | [VGG19.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
