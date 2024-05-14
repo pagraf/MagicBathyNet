@@ -1,4 +1,4 @@
-![image](https://github.com/pagraf/MagicBathyNet_Benchmark/assets/35768562/4d38f25a-9060-4090-b351-86dd82a438f0)
+![magicbathynet](https://github.com/pagraf/MagicBathyNet/assets/35768562/85d2f09c-2bc9-4edb-9b3e-5428589fdf64)
 
 
 # MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters
