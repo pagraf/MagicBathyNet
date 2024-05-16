@@ -112,5 +112,40 @@ print(test)
 
 
 
+#This script privides train-test splits based on the availability of data between modalities i.e. if img and depth are both not empty.
+
+import cv2
+import os
+import numpy as np
+from sklearn.model_selection import train_test_split
+
+img_path = 'path'
+depth_path = 'path'
+
+img_raster_list = []
+depth_raster_list = []
+
+def getFiles(path, raster_list):
+    for file in os.listdir(path):
+        if file.endswith(".tif"):
+            img = cv2.imread(os.path.join(path, file), cv2.IMREAD_UNCHANGED)
+            if np.mean(img) > 0:
+                depth_file = file.replace("aerial", "depth")
+                depth_img = cv2.imread(os.path.join(depth_path, depth_file), cv2.IMREAD_UNCHANGED)
+                if np.mean(depth_img) < 0:
+                    raster_list.append(file)
+
+getFiles(img_path, img_raster_list)
+
+paired_list = img_raster_list
+
+train, test = train_test_split(paired_list, test_size=0.2, random_state=1)
+
+print('train sample:')
+print(train)
+print('test sample:')
+print(test)
+
+
 
 
