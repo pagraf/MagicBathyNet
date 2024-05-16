@@ -148,4 +148,149 @@ print(test)
 
 
 
+#create normalization files
+
+import os
+import numpy as np
+import rasterio
+import matplotlib.pyplot as plt
+
+k=4
+
+# Directory containing the image files
+image_dir = os.path.join(MAIN_FOLDER, 'agia_napa/img/spot6')
+
+# Initialize lists to store pixel values for each channel
+channel_pixel_values = [[] for _ in range(3)]  # Assuming 3 channels; adjust if needed
+
+# Iterate through each image file in the directory
+for filename in os.listdir(image_dir):
+    if filename.endswith('.tif'):
+        # Open the image file using rasterio
+        with rasterio.open(os.path.join(image_dir, filename)) as src:
+            # Read the pixel values as a 3D numpy array (bands, rows, columns)
+            image_data = src.read()
+
+            # Iterate through each channel
+            for i in range(3):
+                # Flatten the pixel values for the current channel to a 1D array
+                channel_pixel_values[i].extend(image_data[i].flatten())
+
+# Convert the lists of pixel values for each channel to numpy arrays
+channel_pixel_values = [np.array(values) for values in channel_pixel_values]
+
+# Calculate mean, standard deviation, and maximum for each channel across all images
+channel_means = [round(np.mean(values), 3) for values in channel_pixel_values]
+channel_mins = [0 for values in channel_pixel_values]
+channel_stds = [round(np.std(values), 3) for values in channel_pixel_values]
+channel_maxs = [round(mean + k * std, 3) for mean, std in zip(channel_means, channel_stds)]  # Calculating max based on mean and std
+# Combine min and max values for each channel into a 2x3 array
+norm_params = np.array([channel_mins, channel_maxs])
+
+# Save the normalization parameters to a file
+np.save('norm_param_s2_an.npy', norm_params)
+
+print(norm_params)
+
+
+
+#replace colors in gts
+import os
+from osgeo import gdal
+from PIL import Image
+import numpy as np
+
+def replace_colors(image, color_mapping):
+    
+    #Replace specific colors in the image according to the provided mapping.
+
+    #Parameters:
+        #image (PIL.Image): The input image.
+        #color_mapping (dict): A dictionary where keys are old colors (RGB tuples)
+                              #and values are corresponding new colors (RGB tuples).
+
+    #Returns:
+    #    PIL.Image: The modified image.
+    
+    data = image.getdata()
+    new_data = []
+    for item in data:
+        new_color = color_mapping.get(item)
+        if new_color:
+            new_data.append(new_color)
+        else:
+            new_data.append(item)
+    image.putdata(new_data)
+    return image
+
+def process_geotiff(input_path, output_path, color_mapping):
+    
+    #Process a GeoTIFF image, replace specific colors according to the provided mapping,
+    #and write back with georeference.
+
+    #Parameters:
+    #    input_path (str): Path to the input GeoTIFF image.
+    #    output_path (str): Path to save the modified GeoTIFF image.
+    #    color_mapping (dict): A dictionary where keys are old colors (RGB tuples)
+                              #and values are corresponding new colors (RGB tuples).
+    
+    # Open the GeoTIFF image
+    dataset = gdal.Open(input_path, gdal.GA_ReadOnly)
+
+    # Read geotransform
+    geotransform = dataset.GetGeoTransform()
+
+    # Read raster data
+    raster = dataset.ReadAsArray()
+
+    # Close the dataset
+    dataset = None
+
+    # Convert raster array to PIL Image
+    image = Image.fromarray(raster.transpose(1, 2, 0))
+
+    # Replace colors
+    modified_image = replace_colors(image, color_mapping)
+
+    # Convert modified image back to numpy array
+    modified_raster = np.array(modified_image)
+
+    # Write modified raster back to GeoTIFF
+    driver = gdal.GetDriverByName('GTiff')
+    out_dataset = driver.Create(output_path, modified_raster.shape[1], modified_raster.shape[0], 3, gdal.GDT_Byte)
+
+    # Set geotransform
+    out_dataset.SetGeoTransform(geotransform)
+
+    # Write modified raster data
+    out_dataset.GetRasterBand(1).WriteArray(modified_raster[:,:,0])
+    out_dataset.GetRasterBand(2).WriteArray(modified_raster[:,:,1])
+    out_dataset.GetRasterBand(3).WriteArray(modified_raster[:,:,2])
+
+    # Close output dataset
+    out_dataset = None
+
+    print("Image processed and saved successfully.")
+
+# Specify input and output directories
+input_dir = "/home/pagraf/Desktop/magicbathy/puck_laggon/gts/s2"
+output_dir = "/home/pagraf/Desktop/magicbathy/puck_laggon/gts/s2_recoloured"
+
+# Create output directory if it doesn't exist
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
+# Define color mapping
+color_mapping = {
+    (157, 157, 157): (255, 128, 0), 
+    (255, 255, 255): (0, 128, 0)
+}
+
+# Process each TIFF file in the input directory
+for filename in os.listdir(input_dir):
+    if filename.endswith(".tif"):
+        input_path = os.path.join(input_dir, filename)
+        output_path = os.path.join(output_dir, filename)
+        process_geotiff(input_path, output_path, color_mapping)
+
 
