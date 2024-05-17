@@ -162,7 +162,7 @@ We provide code and model weights for the following deep learning models that ha
 To achieve the results presented in the paper, use the parameters and the specific train-evaluation splits provided in the dataset. Parameters can be found [here](https://drive.google.com/file/d/1JqV_2Dx8aiGMO7KYoCzDfqCoxQ5bDstr/view?usp=sharing) while train-evaluation splits are included in the dataset.
 
 ## Example testing results
-Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our [paper](https://www.magicbathy.eu/). 
+Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved read our [paper](https://www.magicbathy.eu/). 
 
 
 ![img_410_aerial](https://github.com/pagraf/MagicBathyNet/assets/35768562/132b4166-b012-476b-9653-b511ede2c6f3)
