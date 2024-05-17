@@ -131,7 +131,7 @@ To train and test the **bathymetry** models use **MagicBathy_Benchmarking_Bathym
 To train and test the **pixel-based classification** models use **MagicBathy_Benchmarking_semsegm.ipynb**.
 
 ## Pre-trained Deep Learning Models
-We provide code and model weights for the following deep learning models that have been pre-trained on BigEarthNet-S2 with the original Level-3 class nomenclature of CLC 2018 (which includes 43 classes) for scene classification:
+We provide code and model weights for the following deep learning models that have been pre-trained on MagicBathyNet for pixel-based classification and bathymetry tasks:
 
 ### Pixel-based classification
 | Model Names | Modality | Area | Pre-Trained PyTorch Models                                                                                                                | 
@@ -159,7 +159,7 @@ We provide code and model weights for the following deep learning models that ha
 | Image2Bathy | Sentinel-2 | Agia Napa    | [Image2Bathy_s2_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
 | Image2Bathy | Sentinel-2 | Puck Lagoon    | [Image2Bathy_s2_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
 
-To achieve the results presented in the paper, use the parameters and the specific train-evaluation splits provided in the dataset. Parameted can be found [here](https://drive.google.com/file/d/1JqV_2Dx8aiGMO7KYoCzDfqCoxQ5bDstr/view?usp=sharing) while train-evaluation splits are included in the dataset.
+To achieve the results presented in the paper, use the parameters and the specific train-evaluation splits provided in the dataset. Parameters can be found [here](https://drive.google.com/file/d/1JqV_2Dx8aiGMO7KYoCzDfqCoxQ5bDstr/view?usp=sharing) while train-evaluation splits are included in the dataset.
 
 ## Example testing results
 Example patch of the Agia Napa area (left), pixel classification results obtained by U-Net (middle) and predicted bathymetry obtained by MagicBathy-U-Net (right). For more information on the results and accuracy achieved please see our [paper](https://www.magicbathy.eu/). 
