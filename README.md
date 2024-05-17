@@ -74,9 +74,9 @@ The folder structure should be as follows:
   ┃ ┃ ┣ 📂 spot6/
   ┃ ┃ ┃ ┣ 📜 gts_339.tif
   ┃ ┃ ┃ ┣ 📜 ...
-  ┃ ┣ 📜 aerial_split.txt
-  ┃ ┣ 📜 s2_split.txt
-  ┃ ┣ 📜 spot6_split.txt
+  ┃ ┣ 📜 [modality]_split_bathymetry.txt
+  ┃ ┣ 📜 [modality]_split_pixel_class.txt
+  ┃ ┣ 📜 norm_param_[modality]_an.txt
   ┃
   ┣ 📂 puck_lagoon/
   ┃ ┣ 📂 img/
@@ -85,9 +85,9 @@ The folder structure should be as follows:
   ┃ ┃ ┣ 📜 ...
   ┃ ┣ 📂 gts/
   ┃ ┃ ┣ 📜 ...
-  ┃ ┣ 📜 aerial_split.txt
-  ┃ ┣ 📜 s2_split.txt
-  ┃ ┣ 📜 spot6_split.txt
+  ┃ ┣ 📜 [modality]_split_bathymetry.txt
+  ┃ ┣ 📜 [modality]_split_pixel_class.txt
+  ┃ ┣ 📜 norm_param_[modality]_pl.txt
 ```
 The mapping between RGB color values and classes is:
 
