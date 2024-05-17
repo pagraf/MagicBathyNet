@@ -166,7 +166,7 @@ Example patch of the Agia Napa area (left), pixel classification results obtaine
 
 
 ![img_410_aerial](https://github.com/pagraf/MagicBathyNet/assets/35768562/132b4166-b012-476b-9653-b511ede2c6f3)
-![aerial_410_segformer](https://github.com/pagraf/MagicBathyNet/assets/35768562/8a293815-87b4-4f45-b5de-c99f7c827bb5)
+![aerial_410_unet](https://github.com/pagraf/MagicBathyNet/assets/35768562/8a293815-87b4-4f45-b5de-c99f7c827bb5)
 ![depth_410_aerial](https://github.com/pagraf/MagicBathyNet/assets/35768562/7995efd7-f85e-4411-8037-4a68c9780bfb)
 
 
