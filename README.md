@@ -9,7 +9,7 @@
 
 # Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
 
-This repository contains the code of the paper [MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters accepted for publication in the 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://www.magicbathy.eu/). 
+This repository contains the code of the paper [MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters accepted for publication in the 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://www.magicbathy.eu/). 
 
 
 ## Citation
@@ -17,11 +17,11 @@ This repository contains the code of the paper [MagicBathyNet: A Multimodal Remo
 If you find this repository useful, please consider giving a star ⭐.<br />
 If you use the code in this repository or the dataset please cite:
 
->Agrafiotis, P., Zanowski, L., Skarlatos, D. & Demir, B. (2024) MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters, IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024
+>Agrafiotis, P., Zanowski, L., Skarlatos, D. & Demir, B. (2024) MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters, IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024
 
 ```
 @inproceedings{agraf_magicbathynet,
-  title={MagicBathyNet: A Multimodal Remote Sensing Dataset for Benchmarking Learning-based Bathymetry and Pixel-based Classification in Shallow Waters},
+  title={MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters},
   author={Agrafiotis, P. and Zanowski, L. and Skarlatos, D. and Demir, B.},
   booktitle={IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium},
   pages={},
