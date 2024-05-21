@@ -1,3 +1,20 @@
+"""Initial Pytorch Implementation: Panagiotis Agrafiotis (https://github.com/pagraf/MagicBathyNet)
+Email: agrafiotis.panagiotis@gmail.com
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This work is part of MagicBathy project funded by the European Union’s HORIZON Europe research and innovation programme under 
+the Marie Skłodowska-Curie GA 101063294. Work has been carried out at the Remote Sensing Image Analysis group. For more 
+information about the project visit https://www.magicbathy.eu/.
+"""
+
+
 #This script crops windows of a specified size from two raster images and create new raster files for the second 
 #image based on the condition that the mean pixel value of the corresponding window in the main image is not zero
 
