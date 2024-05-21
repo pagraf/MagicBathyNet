@@ -151,12 +151,12 @@ We provide code and model weights for the following deep learning models that ha
 ### Learning-based Bathymetry
 | Model Name | Modality | Area | Pre-Trained PyTorch Models                                                                                                                | 
 | ----------- |----------| ---- |----------------------------------------------------------------------------------------------------------------------------------------------|
-| Image2Bathy | Aerial | Agia Napa | [Image2Bathy_aerial_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/K-BranchCNN.zip) |
-| Image2Bathy | Aerial | Puck Lagoon         | [Image2Bathy_aerial_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG16.zip)            |
-| Image2Bathy | SPOT-6 | Agia Napa        | [Image2Bathy_spot6_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/VGG19.zip)            |
-| Image2Bathy | SPOT-6 | Puck Lagoon      | [Image2Bathy_spot6_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet50.zip)      |
-| Image2Bathy | Sentinel-2 | Agia Napa    | [Image2Bathy_s2_an.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet101.zip)   | 
-| Image2Bathy | Sentinel-2 | Puck Lagoon    | [Image2Bathy_s2_pl.zip](http://bigearth.net/static/pretrained-models/BigEarthNet-S2_43-Classes/ResNet152.zip)   |
+| Modified U-Net for bathymetry | Aerial | Agia Napa | [bathymetry_aerial_an.zip](https://drive.google.com/file/d/1-qUlQMHdZDZKkeQ4RLX54o4TK6juwOqD/view?usp=sharing) |
+| Modified U-Net for bathymetry | Aerial | Puck Lagoon         | [bathymetry_aerial_pl.zip](https://drive.google.com/file/d/1SN8YH-WZIdR4e5Zl0uQK4OM62z_WNCks/view?usp=sharing)            |
+| Modified U-Net for bathymetry | SPOT-6 | Agia Napa        | [bathymetry_spot6_an.zip](https://drive.google.com/file/d/1giG-MrJQZ2YLDzjOd2h-u2vr9gfI1jO0/view?usp=sharing)            |
+| Modified U-Net for bathymetry | SPOT-6 | Puck Lagoon      | [bathymetry_spot6_pl.zip](https://drive.google.com/file/d/1Cf1gAsEUfACkBep4i_0gB-pp_L0bvaU_/view?usp=sharing)      |
+| Modified U-Net for bathymetry | Sentinel-2 | Agia Napa    | [bathymetry_s2_an.zip](https://drive.google.com/file/d/15esoghCHHHilQJxTBBjmHpAAde-AHdtE/view?usp=sharing)   | 
+| Modified U-Net for bathymetry | Sentinel-2 | Puck Lagoon    | [bathymetry_s2_pl.zip](https://drive.google.com/file/d/1oCnD5ePwVW3ORix4GWRcMUp_kSL5p9Se/view?usp=sharing)   |
 
 To achieve the results presented in the paper, use the parameters and the specific train-evaluation splits provided in the dataset. Parameters can be found [here](https://drive.google.com/file/d/1JqV_2Dx8aiGMO7KYoCzDfqCoxQ5bDstr/view?usp=sharing) while train-evaluation splits are included in the dataset.
 
