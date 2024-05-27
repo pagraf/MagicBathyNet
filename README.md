@@ -17,7 +17,7 @@ This repository contains the code of the paper [MagicBathyNet: A Multimodal Remo
 If you find this repository useful, please consider giving a star ⭐.<br />
 If you use the code in this repository or the dataset please cite:
 
->Agrafiotis, P., Zanowski, L., Skarlatos, D. & Demir, B. (2024) MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters, arXiv preprint
+>Agrafiotis, P., Janowski, L., Skarlatos, D. & Demir, B. (2024) MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters, arXiv preprint
 arXiv:2405.15477, 2024.
 
 ```
