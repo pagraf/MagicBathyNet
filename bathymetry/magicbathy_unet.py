@@ -7,15 +7,20 @@ The model retains the encoder-decoder structure with reduced layers and channels
 maintain spatial information during depth prediction. It outputs continuous values, suitable for depth estimation,
 even with limited annotated data.
 
-If you use this code please cite: ...
+If you use this code please cite our paper: "Agrafiotis, P., Janowski, L., Skarlatos, D. & Demir, B. (2024) 
+MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification 
+in Shallow Waters, arXiv preprint arXiv:2405.15477, 2024."
 
-magicbathy_unet.py © 2024 by Panagiotis Agrafiotis is licensed under Attribution-NonCommercial-ShareAlike 4.0 International 
+
+
+Attribution-NonCommercial-ShareAlike 4.0 International License
+
+Copyright (c) 2024 The MagicBathyNet Authors
 
 This license requires that reusers give credit to the creator. It allows reusers 
 to distribute, remix, adapt, and build upon the material in any medium or format,
 for noncommercial purposes only. If others modify or adapt the material, they 
 must license the modified material under identical terms.
-
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -24,6 +29,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+This work is part of MagicBathy project funded by the European Union’s HORIZON Europe research and innovation 
+programme under the Marie Skłodowska-Curie GA 101063294. Work has been carried out at the Remote Sensing Image 
+Analysis group. For more information about the project visit https://www.magicbathy.eu/.
 '''
 
 
