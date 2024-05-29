@@ -1,4 +1,7 @@
-MagicBathyNet © 2024 by Panagiotis Agrafiotis is licensed under Attribution-NonCommercial-ShareAlike 4.0 International 
+Attribution-NonCommercial-ShareAlike 4.0 International License
+
+Copyright (c) 2024 The MagicBathyNet Authors
+
 
 This license requires that reusers give credit to the creator. It allows reusers 
 to distribute, remix, adapt, and build upon the material in any medium or format,
@@ -13,10 +16,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-***This license applies to all the software providied in this repository except 
-the ones found under semanticsegmentation/ folder. For this license, see 
-LICENSE.txt in semanticsegmentation/ folder***
-
-For more information on license terms see 
-https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
