@@ -113,7 +113,7 @@ The code in this repository is tested with `Ubuntu 22.04 LTS` and `Python 3.8.10
 
 ## Install the repo
 
-`cd ./MagicBathyNet_Benchmark`
+`cd ./MagicBathyNet`
 
 `pip install setup -e .`
 
