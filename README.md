@@ -108,7 +108,6 @@ For the Puck Lagoon area:
 `git clone https://github.com/pagraf/MagicBathyNet.git`
 
 ## Installation Guide
-The code in this repository is tested with `Ubuntu 22.04 LTS` and `Python 3.8.10` `GCC 9.4.0`.
 The requirements are easily installed via Anaconda (recommended):
 
 `conda env create -f environment.yml`
@@ -116,13 +115,6 @@ The requirements are easily installed via Anaconda (recommended):
 After the installation is completed, activate the environment:
 
 `conda activate magicbathynet`
-
-
-### Dependencies
-All dependencies are listed in the [`requirements.txt`](requirements.txt) and can be installed via the following command:
-```
-pip install -r requirements.txt
-```
 
 ## Train and Test the models
 To train and test the **bathymetry** models use **MagicBathy_Benchmarking_Bathymetry.ipynb**.
