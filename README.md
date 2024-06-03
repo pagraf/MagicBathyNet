@@ -103,19 +103,20 @@ For the Puck Lagoon area:
 2 : (0, 0, 0)}     #Undefined (black)
 ```
 
-
-## Setup
-The code in this repository is tested with `Ubuntu 22.04 LTS` and `Python 3.8.10` `GCC 9.4.0`.
-
 ## Clone the repo
 
-`git clone ...`
+`git clone https://github.com/pagraf/MagicBathyNet.git`
 
-## Install the repo
+## Installation Guide
+The code in this repository is tested with `Ubuntu 22.04 LTS` and `Python 3.8.10` `GCC 9.4.0`.
+The requirements are easily installed via Anaconda (recommended):
 
-`cd ./MagicBathyNet`
+`conda env create -f environment.yml`
 
-`pip install setup -e .`
+After the installation is completed, activate the environment:
+
+`conda activate magicbathynet`
+
 
 ### Dependencies
 All dependencies are listed in the [`requirements.txt`](requirements.txt) and can be installed via the following command:
