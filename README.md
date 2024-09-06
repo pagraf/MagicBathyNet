@@ -9,7 +9,7 @@
 
 # Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
 
-This repository contains the code of the paper [MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters accepted for publication in the 2024 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2024)](https://arxiv.org/abs/2405.15477). 
+This repository contains the code of the paper [P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355.)](https://arxiv.org/abs/2405.15477). 
 
 
 ## Citation
@@ -17,9 +17,7 @@ This repository contains the code of the paper [MagicBathyNet: A Multimodal Remo
 If you find this repository useful, please consider giving a star ⭐.<br />
 If you use the code in this repository or the dataset please cite:
 
->Agrafiotis, P., Janowski, L., Skarlatos, D. & Demir, B. (2024) MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters, arXiv preprint
-arXiv:2405.15477, 2024.
-
+>P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355.
 ```
 @article{agrafiotis2024magicbathynet,
       title={MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters}, 
