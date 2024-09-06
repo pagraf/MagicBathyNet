@@ -19,12 +19,15 @@ If you use the code in this repository or the dataset please cite:
 
 >P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355.
 ```
-@article{agrafiotis2024magicbathynet,
-      title={MagicBathyNet: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-based Classification in Shallow Waters}, 
-      author={Panagiotis Agrafiotis and Łukasz Janowski and Dimitrios Skarlatos and Begüm Demir},
-      year={2024},
-      journal={arXiv preprint arXiv:2405.15477}
-}
+@INPROCEEDINGS{10641355,
+  author={Agrafiotis, Panagiotis and Janowski, Łukasz and Skarlatos, Dimitrios and Demir, Begüm},
+  booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={249-253},
+  doi={10.1109/IGARSS53475.2024.10641355}}
 ```
 <br />
 
