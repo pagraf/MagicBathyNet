@@ -37,7 +37,6 @@ If you use the code in this repository or the dataset please cite:
 ## Downloading the dataset
 
 For downloading the dataset and a detailed explanation of it, please visit the MagicBathy Project website at [https://www.magicbathy.eu/magicbathynet.html](https://www.magicbathy.eu/magicbathynet.html)
-![magicbathynet_snaps](https://github.com/user-attachments/assets/0806dc52-d6f7-4d18-912d-c7eb0dde713f)
 
 
 ## Dataset structure
