@@ -5,10 +5,6 @@
 
 [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) is a benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations. Dataset also facilitates unsupervised learning for model pre-training in shallow coastal areas.
 <br />
-[![Project Website](https://img.shields.io/badge/Project%20|%20Website-grey?style=flat-square&logo=github&logoColor=white&color=blue)](https://your-project-link.com)
-[![arXiv](https://img.shields.io/badge/arXiv-red?style=flat-square)](https://arxiv.org/your-arxiv-id)
-[![Paper](https://img.shields.io/badge/Paper-green?style=flat-square)](https://your-paper-link.com)
-
 
 <br />
 
@@ -16,7 +12,7 @@
 
 This repository contains the code of the paper "P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355."<br />
 
-Download the paper from: [arXiv](https://arxiv.org/abs/2405.15477) or [IEEE](https://ieeexplore.ieee.org/document/10641355)
+Download the paper from: [![arXiv](https://img.shields.io/badge/arXiv-<INDEX>-<COLOR>.svg)](https://arxiv.org/abs/2405.15477) or [IEEE](https://ieeexplore.ieee.org/document/10641355)
 
 ## Citation
 
