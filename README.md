@@ -120,10 +120,14 @@ After the installation is completed, activate the environment:
 
 `conda activate magicbathynet`
 
-## Train and Test the models
-To train and test the **bathymetry** models use **MagicBathy_Benchmarking_Bathymetry.ipynb**.
+Open Jupyter Notebook:
 
-To train and test the **pixel-based classification** models use **MagicBathy_Benchmarking_semsegm.ipynb**.
+`jupyter notebook`
+
+## Train and Test the models
+To train and test the **bathymetry** models use **MagicBathyNet_bathymetry.ipynb**.
+
+To train and test the **pixel-based classification** models use **MagicBathyNet_pixelclass.ipynb**.
 
 ## Pre-trained Deep Learning Models
 We provide code and model weights for the following deep learning models that have been pre-trained on MagicBathyNet for pixel-based classification and bathymetry tasks:
