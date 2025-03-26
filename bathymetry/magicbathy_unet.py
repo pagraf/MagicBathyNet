@@ -1,14 +1,17 @@
 '''
-Initial Pytorch Implementation: Panagiotis Agrafiotis (https://github.com/pagraf/Swin-BathyUNet)
+Initial Pytorch Implementation: Panagiotis Agrafiotis (https://github.com/pagraf/MagicBathyNet_Benchmark)
 Email: agrafiotis.panagiotis@gmail.com
 
-Description:  Swin-BathyUNet, a deep learning model that combines U-Net with Swin Transformer self-attention 
-layers and a cross-attention mechanism, tailored specifically for SDB. Swin-BathyUNet is designed to improve 
-bathymetric accuracy by capturing long-range spatial relationships and can also function as a standalone solution 
-for standard bathymetric mapping with various training depth data, independent of SfM-MVS output.
-It outputs continuous values.
+Description: magicbathy_unet.py is a simplified U-Net model modified for estimating water depth from RGB images. 
+The model retains the encoder-decoder structure with reduced layers and channels, using skip connections to 
+maintain spatial information during depth prediction. It outputs continuous values, suitable for depth estimation,
+even with limited annotated data.
 
-If you use this code please cite our paper: "  "
+If you use this code please cite our paper: 
+
+"P. Agrafiotis, Ł. Janowski, D. Skarlatos and B. Demir, "MAGICBATHYNET: A Multimodal Remote Sensing Dataset for 
+Bathymetry Prediction and Pixel-Based Classification in Shallow Waters," IGARSS 2024 - 2024 IEEE International 
+Geoscience and Remote Sensing Symposium, Athens, Greece, 2024, pp. 249-253, doi: 10.1109/IGARSS53475.2024.10641355."
 
 
 
