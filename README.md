@@ -6,7 +6,7 @@
 [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) is a benchmark dataset made up of image patches of Sentinel-2, SPOT-6 and aerial imagery, bathymetry in raster format and seabed classes annotations. Dataset also facilitates unsupervised learning for model pre-training in shallow coastal areas. It is developed in the context of MagicBathy project.
 <br />
 <br />
-[![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
+[![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu) [![DOI](https://zenodo.org/badge/748123214.svg)](https://doi.org/10.5281/zenodo.15630601)
 <br />
 
 # Package for benchmarking MagicBathyNet dataset in learning-based bathymetry and pixel-based classification.
