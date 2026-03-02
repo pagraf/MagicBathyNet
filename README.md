@@ -175,7 +175,7 @@ Example patch of the Agia Napa area (left), pixel classification results obtaine
 Panagiotis Agrafiotis [https://www.user.tu-berlin.de/pagraf/](https://www.user.tu-berlin.de/pagraf/)
 
 ## Feedback
-Feel free to give feedback, by sending an email to: agrafiotis@tu-berlin.de
+Feel free to give feedback, by sending an email to: pagraf@central.ntua.gr
 <br />
 <br />
 
